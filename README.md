@@ -4,8 +4,6 @@ This is a simple project I've made with html, css, javascript and jdbc.
 
 # Aim:
 
-A good Automating Student Performance Analysis system will automate user’s activities,
-processes and practices, as well as increase their ability to handle a greater capacity of events.
  This is an efficient Automating Student Performance Analysis system software project that
 serves the functionality of an event manager. The event manager is the person who plans and
 executes the event, taking responsibility for the creative, technical and logistical elements.
@@ -23,4 +21,31 @@ the user to select the date and time of event.
 
 # Code
     I've given this on resporatory.
-    
+<img src="Structure.png">
+
+# Screenshots
+
+This is how the main page looks like:
+<img src="main_page.png">
+
+Registration page:
+
+<img src="reg_page.png">
+
+The values which we entered in registration page will get stored in database:
+
+<img src="reg_values.png">
+
+The DataBase after Inserting values:
+
+<img src="db_values.png">
+
+We can login with registered details:
+
+<img src="login_values.png">
+
+After logged in succesfully I've given dynamic dependent drop down list using html javascript for 3 drop down. Please check the video for this.
+This is how it looks like:
+
+
+Thank You.
