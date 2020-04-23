@@ -1,0 +1,28 @@
+event1(prj) -> webcontent -> index.jsp
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Login Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="LoginBox">
+		<img src="admin.jpg" class="user">
+		<h2>Administrator</h2>
+		<form onsubmit="fun()">
+			<p>Username</p>
+			<input type="text" name="username" placeholder="Enter Username"><br>
+			<p>Password</p>
+			<input type="password" name="password" placeholder="*************"><br><br><br>
+			<input type="submit" value="Sign In">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" value="Register">
+		</form>
+	</div>
+</body>
+</html>

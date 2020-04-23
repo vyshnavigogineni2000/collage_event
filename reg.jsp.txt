@@ -1,0 +1,35 @@
+event1(prj) -> webcontent -> reg.jsp
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<div class="RegBox">
+		<img src="admin.jpg" class="user1">
+		<h2>Register</h2>
+		<form action="./InsertData" method="post">
+			<p>UserName</p> 
+			<input type="text" name="rusername" placeholder="Enter your username">
+			<p>Name</p>
+			<input type="text" name="rname" placeholder="Enter name">
+			<p>Mobile Number</p>
+			<input type="text" name="rmobilenumber" placeholder="Enter MobileNumber">
+			<p>Password</p>
+			<input type="password" name="rpassword" placeholder="*************">
+			<p>Re-Type Password</p>
+			<input type="password" name="rpassword2" placeholder="************">
+			<br><br><br>
+			<input type="submit" value="save">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" value="Back" onclick="index.jsp">
+		</form>
+	</div>
+</body>
+</html>

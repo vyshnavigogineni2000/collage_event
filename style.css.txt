@@ -1,0 +1,100 @@
+event1(prj) -> webcontent -> style.css
+
+This is the css code for index.jsp
+
+@charset "ISO-8859-1";
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.LoginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.menuBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 1200px;
+	height: 500px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+input[type=text]
+{
+	width:100%
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:1px 0;
+	outine:none;
+	padding:1px;
+	box-sizing:border-box;
+	transition:.3s;
+}
+input[type=text]:focus{
+	border-color:dodgerBlue;
+	box-shadow:0 0 10px 0 dodgerBlue;
+}
+input[type=password]
+{
+	width:100%
+	border:2px solid #aaa;
+	border-radius:4px;
+	margin:1px 0;
+	outine:none;
+	padding:1px;
+	box-sizing:border-box;
+	transition:.3s;
+}
+input[type=password]:focus{
+	border-color:dodgerBlue;
+	box-shadow:0 0 10px 0 dodgerBlue;
+}
+input[type=submit]
+{
+	color: #1c5169;
+    background-color: #86dbff;
+    -webkit-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+    border: 2px solid transparent;
+}
+input[type=submit]:hover, input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 20px 15px #3cc6d8;
+    box-shadow: 0px 0px 30px 20px #3cc6d8;
+    background-color: #d7f3ff;
+}
+h2
+{
+	color: orange;
+	text-align: center;
+}
+p
+{
+	color: crimson;
+}
